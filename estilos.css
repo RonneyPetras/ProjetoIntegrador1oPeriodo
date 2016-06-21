@@ -3,6 +3,7 @@
 }
 body{
     margin: 0;
+    font-family: calibri;
 }
 
 .conteudo{
@@ -11,9 +12,16 @@ body{
 }
 .containerFluid{
     margin: 0;
+    padding: 0;
 }
 .logo{
     width: 290px;
+}
+.caixaLogo{
+    background: rgba(200, 200, 200, 0.51);
+}
+.sectionLogo{
+    
 }
 .linhaPreta{
     height: 7px;
@@ -24,7 +32,6 @@ body{
 .linha{
     width: 1000px;
     margin: auto;
-    opacity: 1.0;
 }
 .texto2{
     text-align: center;
@@ -40,7 +47,6 @@ body{
 .green{
     background: green;
 }
-
 .rodape{
     text-align: center;
     font-size: 12px;
@@ -52,8 +58,9 @@ nav{
 }
 nav ul{
     list-style: none;
-    padding: 0;
-    
+    margin: 0;
+    padding: 15px;
+    background: rgb(0,0,0);
 }
 nav ul li{
     display: inline;
@@ -61,10 +68,11 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     padding: 15px;
+    color: white;
 }
 nav ul li a:hover{
     background: darkred;
-    color: white;
+    color: #yellow;
 }
 body{
     background: url('imagens/background.jpg') fixed;
