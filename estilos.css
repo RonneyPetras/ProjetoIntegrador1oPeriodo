@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box
+}
+body{
+    margin: 0;
+}
+
+.conteudo{
+    margin: auto;
+    width: 1000px;
+}
+.containerFluid{
+    margin: 0;
+}
+.logo{
+    width: 290px;
+}
+.linhaPreta{
+    height: 7px;
+    background: darkslateblue;
+    width: 1000px;
+    margin: auto;
+}
+.linha{
+    width: 1000px;
+    margin: auto;
+    opacity: 1.0;
+}
+.texto2{
+    text-align: center;
+}
+.brancoTransparente{
+}
+.blue{
+    background: blue;
+}
+.red{
+    background: pink;
+}
+.green{
+    background: green;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 12px;
+}
+nav{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+}
+nav ul li a:hover{
+    background: darkred;
+    color: white;
+}
+body{
+    background: url('imagens/background.jpg') fixed;
+}
