@@ -9,7 +9,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="imagens/ico.png">
     </head>
     <body>
-        <div class="containerFluid">
+        <main class="containerFluid">
             <!--Barra preta que fica no topo da pagina -->
             <div class="linhaPreta">
             </div>
@@ -39,30 +39,30 @@
                 </ul>
             </nav>
 
-            <div class="linha">    
-                <div class="col-dg-11">
-                    <img src="imagens/background1.jpg" alt="" width="530">
-                </div>
-
-                <div class="col-dg-9">
-                    <h3>Como soube do nosso site: </h3>
-                    <ul>
-                        <li>Google</li>
-                        <li>Amigos</li>
-                        <li>Outros Sites</li>
-                        <li>Revistas</li>
-                    </ul>
+            <section class="linha brancoTransparente apresentacao"> 
+                <!--Slide show com informações dos cursos-->        
+                <img class="col-dg-11 slideShow"
+                     src="imagens/background1.jpg" alt="" width="530">
+       
+                <!--Espaço com informações complementares-->
+                <section class="col-dg-9 caixaLateral">
+                    <div class="textoApresentacao">
+                        <h2>Por que ClassTube?</h2>
+                        <p>Criamos um conteudo pensando na necessidade de informação rapida e clara dos alunos dos cursos de TI. Voce encontrará aqui o conhecimento que busca e precisa.</p>
+                        <p>Seja bem vindo e fique a vontade</p>
+                    </div>    
+                </section>
+                
+            </section>
+            <!--Linha do meio com texto introdutorio-->
+            <div class="linha barraDoMeio">
+                <div id='texto2' class="col-dg-20 brancoTransparente">
+                    <h2>Reinvente-se:</h2>
+                    <p>Descubra os Benefícios da Universidade da Vida</p>
                 </div>
             </div>
 
-            <div class="linha">
-                <div class="col-dg-20 texto2">
-                    <p>Reinvente-se:<br>
-Descubra os Benefícios da Universidade da Vida</p>
-                </div>
-            </div>
-
-            <div class="linha">
+            <div class="linha brancoTransparente">
                 <div class="col-dg-20">
                     <div class="col-dg-1">
 
@@ -96,13 +96,13 @@ Descubra os Benefícios da Universidade da Vida</p>
                 </div>
             </div>
 
-             <div class="linha rodape">
+             <footer class="linha rodape">
                 <div class="col-dg-20">
                     <p>
                         © 2016 por CLASSTUBE. IFTM - Projeto Integrador Grupo 5. 
                     </p>
                 </div>
-            </div>
-        </div>
+            </footer>
+        </main>
     </body>
 </html>
