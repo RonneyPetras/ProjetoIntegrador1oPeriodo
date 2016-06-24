@@ -47,6 +47,36 @@ body{
     text-align: center;
     background: black;
     color: white;
+    font-size: 0.8em;
+}
+.rodape p{
+    margin: 5px;
+}
+.rodape ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    width: 40%;
+}
+.rodape ul li{
+    display: inline;
+}
+.rodape ul li a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: white;
+}
+.rodape  ul li a:hover{
+    color: yellow;
+}
+.icones{
+    padding:0 10px 0 0;
+}
+.icones img{
+    width: 20px;
+    margin-top: 7px;
 }
 nav{
     padding: 0;
@@ -86,7 +116,9 @@ nav ul li a:hover{
     padding: 0 30px 0 20px;
     font-size: 1.2em;
 }
-
+.textoVideos{
+    text-align: center;
+}
 .barraDoMeio{
     padding-bottom: 10px;
 }
